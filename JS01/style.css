@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+}
+
+#the_board{
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 500%;
+}
+
+td{
+  font-family: monospace;
+  background: #eeeeee;
+  padding: 50px;
+  font-size: 300%;
+}
+
+td:hover{
+  background: #cccccc;
+}
+
+td.X {
+  background: #EDFFED;
+}
+
+td.O {
+  background: #FFEDED;
+}
