@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  
+  <script src="global.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body>
+  <h1>Questions re: JavaScript</h1>
+  
+  <h2>What's the difference between alert() and console.log()?</h2>
+  <p>alert() creates a popup window from the browser containing the passed arguments.  console.log outputs to the developer's console inspector and is only seen there.'</p>
+  
+  <h2>What's one situation where you might use an alert() to tell the user something?</h2>
+  <p>The alert is very jarring and requires acknowledgement before continuing.  I would only use it in a case where I needed to absolutely grab their attention.  Perhaps as a warning before emptying a database, or some sensitive data.</p>
+  
+  <h2>What's one way that alert() might get obnoxious?</h2>
+  <p>I've seen this used in the past for empty "required" fields in forms, and I am glad to see it loose in favor to a line of red text near the field that was missed.</p>
+  
+  <h2>Would it make sense to use console.log() to tell the user things? Why or why not?</h2>
+  <p>Absolutely not.  The console is not something the average user (including myself) even knows exists unless shown.</p>
+  
+  <h2>What's one way that console.log() might be a good tool for you to use?</h2>
+  <p>This is an amazing way to test functions/methods, variable/object contents, etc.  Even just a validator to check if your program has any breaking code.</p>
+  
+  <h2>When do the console.log() statements get run? Is it before the first alert() gets displayed? After it gets displayed but before the user clicks "OK" (or equivalent)? After the user clicks to close the dialog box? A different time? How did you find out for sure?</h2>
+  <p>It appears that alert() halts all processing until it is acknowledged; console.log() statements are run as soon as things can continue.  I checked by saving and opening this HTML document before answering.  :)</p>
+  
+  <h2>What questions do you have?</h2>
+  <p>No questions about output so far.  These two concepts seem relatively straightforward.</p>
+
+</body>
+</html>
